@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+main {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+main > div {
+	padding: 2rem;
+}
+main > div a {
+	padding: 0.5rem 1rem;
+	margin: 0.25rem;
+	border: 1px solid #212121;
+	text-decoration: none;
+	color: #212121;
+}
+
+h1 {
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Bungee Shade', cursive;
+}
+
+footer {
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+}
